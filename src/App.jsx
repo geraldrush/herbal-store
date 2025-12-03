@@ -64,7 +64,7 @@ export default function App() {
 
       <footer className="mt-8">
         {/* Footer will be minimal here to keep pages short */}
-        <div className="text-center p-6 text-sm text-gray-600">© {new Date().getFullYear()} Herbal Store — All rights reserved</div>
+        <div className="text-center p-6 text-sm text-gray-600">© {new Date().getFullYear()} CannaPuff — All rights reserved</div>
       </footer>
 
       <Cart
