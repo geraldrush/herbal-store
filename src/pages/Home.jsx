@@ -82,7 +82,7 @@ export default function Home({ addToCart }) {
         <p className="text-gray-700 text-lg font-semibold text-green-600 mb-3">
           ✓ ALL OUR DELIVERIES ARE FREE FOR MEMBERS in the areas listed for members
         </p>
-        <a href="/courieroptions" className="text-herbal-600 font-semibold hover:underline">
+        <a href="/courier-options" className="text-herbal-600 font-semibold hover:underline">
           Go to delivery page →
         </a>
       </section>
