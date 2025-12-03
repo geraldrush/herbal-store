@@ -6,12 +6,12 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:justify-between gap-4">
           <div>
             <div className="font-semibold">CannaPuff</div>
-            <div>Contact: <a href="tel:+27831234567" className="text-herbal-500">+27 83 123 4567</a></div>
-            <div>Email: hello@herbalstore.example</div>
+            <div>Contact: <a href="tel:+27710222333" className="text-herbal-500">+27 71 022 2333</a></div>
+            <div>Email: info@cannapuff.co.za</div>
           </div>
           <div>
             <div className="font-semibold">Branches</div>
-            <div>Johannesburg • Cape Town • Durban</div>
+            <div>Johannesburg • Cape Town • Durban • Limpopo • North West • Western Cape • Eastern Cape • Mpumalanga </div>
           </div>
         </div>
       </div>
