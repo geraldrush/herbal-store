@@ -12,7 +12,7 @@ export default function Cart({ isOpen, onClose, cart, updateQty, removeItem, cle
   const total = useMemo(() => cart.reduce((s, i) => s + (i.price * i.qty), 0), [cart]);
 
   const handleComplete = () => {
-    const lines = ['Hello, I want to place an order from Herbal Store:', ''];
+    const lines = ['Hello, I want to place an order from CannaPuff:', ''];
     cart.forEach(i => {
       lines.push(`${i.qty} x ${i.name} — R${(i.price * i.qty).toFixed(2)}`);
     });
