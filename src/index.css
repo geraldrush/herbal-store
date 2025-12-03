@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  /* Custom herbal color palette */
+  --color-herbal-50: #f5fbf7;
+  --color-herbal-100: #eaf7ec;
+  --color-herbal-300: #9ad6a8;
+  --color-herbal-500: #16a34a;
+  --color-herbal-700: #0e7b33;
+  
+  /* Custom shadow */
+  --shadow-soft-lg: 0 10px 30px rgba(16, 24, 40, 0.08);
+}
+
+/* Brand color variable */
+:root {
+  --brand: #16a34a;
+}
+
+/* Full height layout */
+html, body, #root {
+  height: 100%;
+}
+
+/* Subtle gradient background for hero */
+.bg-emerald-fade {
+  background: linear-gradient(180deg, rgba(22,163,74,0.08), rgba(255,255,255,0));
+}
+
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-down {
+  animation: slide-down 0.25s ease-out;
+}
+
